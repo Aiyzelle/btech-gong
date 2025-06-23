@@ -1,0 +1,77 @@
+  /* FOND GRIS background-color: #262626; */
+  /* FOND VERT SOMBRE background-color: #1d342e; */
+  /* TEXTE ORANGE color: #F8AA24; */
+  /* TEXTE SOMBRE color: #1d342e; */
+ /* TEXTE BLANC  color: #FFFFFF; */
+ 
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px solid blue;
+  border-radius: 2px;
+}
+
+.hero_slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+width: 100vw;
+height: 90vh;
+}
+
+.slide_impair{
+    background-color: #262626;
+}
+
+.slide_pair{
+    background-color: #1d342e;
+}
+
+.hero_img{
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.hero_slide_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_date{
+color: #FFFFFF;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0 0 30px;
+font-size: 72px;
+}
+
+.hero_month{
+color: #FFFFFF;
+background-color: #F8AA24;
+text-transform: uppercase;
+
+}
+
+.hero_title{
+color: #F8AA24;
+text-transform: uppercase;
+font-size: 30px;
+margin: 0 0 30px;
+}
+
+.hero_txt{
+color: #FFFFFF;
+font-size: 20px;
+width: 70%;
+text-align: center;
+}
